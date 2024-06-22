@@ -22,10 +22,12 @@ export default {
 
     extend: {
       screens: {
-        "xl": "1440px"
+        "xl": "1440px",
+        "2lg": "1200px",
       },
       backgroundImage: {
         'header-image': "url('/assets/img/header-image.png')",
+        
       },
     },
   },

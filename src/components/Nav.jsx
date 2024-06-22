@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <nav className='absolute z-10 t-0 w-full items-center flex mt-6'>
       <img alt="logo" src='assets/img/logo.png'></img>
-      <ul className='flex text-almost-black leading-[193%] font-dm-sans gap-10 ml-16'>
+      <ul className='hidden lg:flex text-almost-black leading-[193%] font-dm-sans gap-10 ml-16'>
         <li>
           <a href='#'>Home</a>
         </li>

@@ -12,7 +12,7 @@ const Video = () => {
         <p className='leading-[160%] text-2xl font-dm-sans mt-auto'>Alice Walker</p>
       </div>
       <div className='relative flex items-center justify-center'>
-        <img src='assets/img/video-placeholder.png' alt='placeholder' className=''></img>
+        <img src='assets/img/video-placeholder.png' alt='placeholder' className='h-full'></img>
         <div className='absolute w-32 h-32 bg-[hsla(0,0%,100%,0.5)] rounded-full flex items-center justify-center cursor-pointer'>
           <img src='assets/icons/play-filed.svg' alt='play'></img>
         </div>
