@@ -120,7 +120,7 @@ const Footer = () => {
             </li>
           </ul>
 
-          <p>© 2021-2022, All Rights Reserved</p>
+          <p>© 2024, All Rights Reserved</p>
         </div>
       </div>
     </div>
