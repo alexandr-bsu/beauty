@@ -4,6 +4,7 @@ import About from './sections/About';
 import AboutMobile from './sections/mobile/AboutMobile';
 import Video from './sections/Video';
 import Consultation from './sections/Consultation';
+import ConsultationMobile from './sections/mobile/ConsultationMobile';
 import Products from './sections/Products';
 import ReviewSlider from './sections/ReviewSlider';
 import Footer from './sections/Footer';
@@ -19,7 +20,12 @@ const App = () => {
         <AboutMobile />
       </div>
       <Video />
-      <Consultation />
+      <div class='max-lg:hidden'>
+        <Consultation />
+      </div>
+      <div class='lg:hidden'>
+        <ConsultationMobile />
+      </div>
       <Products />
       <ReviewSlider />
       <Footer />

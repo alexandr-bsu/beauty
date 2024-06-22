@@ -2,7 +2,7 @@ import React from 'react';
 
 const Video = () => {
   return (
-    <div className='container-1440 flex flex-col 2lg:flex-row  relative overflow-hidden bg-cream mb-32'>
+    <div className='container-1440 flex flex-col 2lg:flex-row  relative overflow-hidden bg-cream mb-5 lg:mb-32'>
       <div className='z-10 w-full 2lg:w-2/5 py-8 lg:py-[4.375rem] px-5 2lg:px-[7.5rem] grow flex flex-col'>
         <p className='text-accent leading-[1.875rem] lg:leading-[160%] text-base lg:text-2xl font-dm-sans mb-4 lg:mb-6'>Quote today</p>
         <p className='text-almost-black leading-[150%] lg:leading-[160%] font-serif text-2xl lg:text-3xl max-2lg:mb-6'>
