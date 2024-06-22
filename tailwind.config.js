@@ -25,7 +25,7 @@ export default {
         "xl": "1440px"
       },
       backgroundImage: {
-        'header-image': "url('img/header-image.png')",
+        'header-image': "url('/assets/img/header-image.png')",
       },
     },
   },
