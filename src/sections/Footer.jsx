@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='mb-24'>
           <div className='flex gap-36 justify-between'>
             <div className='flex flex-col max-w-96'>
-              <img src='img/white-logo.png' width={70} height={70} alt='logo' className='mb-4'></img>
+              <img src='assets/img/white-logo.png' width={70} height={70} alt='logo' className='mb-4'></img>
               <p className='text-almost-white-70 font-dm-sans text-lg leading-[150%] mb-14'>
                 This is a company engaged in beauty in 2001. This has made more than 2023 products every day since its
                 establishment this is the only beauty company that is the top ranking one in all of Indonesia
@@ -15,17 +15,17 @@ const Footer = () => {
 
               <div className='flex flex-col gap-6 text-almost-white text-dm-sans'>
                 <div className='flex gap-6'>
-                  <img src='icons/phone.svg' alt='phone' />
+                  <img src='assets/icons/phone.svg' alt='phone' />
                   <p>(270) 555-0117 - (270) 555-2344</p>
                 </div>
 
                 <div className='flex gap-6'>
-                  <img src='icons/location.svg' alt='location' />
+                  <img src='assets/icons/location.svg' alt='location' />
                   <p>6391 Elgin St. Celina, Delaware 10299</p>
                 </div>
 
                 <div className='flex gap-6'>
-                  <img src='icons/email.svg' alt='email' />
+                  <img src='assets/icons/email.svg' alt='email' />
                   <p>infotechbeauty@gmail.com</p>
                 </div>
               </div>

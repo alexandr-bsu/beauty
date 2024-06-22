@@ -14,7 +14,7 @@ const Hero = () => {
               </span>
               <h1 className='mb-8 title-style mr-[12.5rem] text-almost-black'>
                 Maximize your bright face with clean skin
-                <img src='extra/star.svg' alt='star' className='inline size-16'/>
+                <img src='assets/extra/star.svg' alt='star' className='inline size-16'/>
               </h1>
               <p className='text-lg font-poppins text-grey leading-8 mr-[12.5rem] mb-16'>
                 Get a skinseed product right away to make your skin bright again. suitable for those of you who often go
@@ -25,7 +25,7 @@ const Hero = () => {
                   Get starter
                 </button>
                 <button className='border-2 border-almost-black px-9 py-4 text-lg flex gap-2 items-center'>
-                  <img src='icons/shop-bag.svg' alt='shop bag' />
+                  <img src='assets/icons/shop-bag.svg' alt='shop bag' />
                   Order Now
                 </button>
               </div>
@@ -34,11 +34,11 @@ const Hero = () => {
               <div data-name='header-item' className='flex flex-col items-center justify-between gap-3'>
                 <p className='font-serif text-5xl font-black text-almost-black'>4.9</p>
                 <div className='flex gap-1'>
-                  <img src='extra/star-rating.svg' alt='star' />
-                  <img src='extra/star-rating.svg' alt='star' />
-                  <img src='extra/star-rating.svg' alt='star' />
-                  <img src='extra/star-rating.svg' alt='star' />
-                  <img src='extra/star-rating.svg' alt='star' />
+                  <img src='assets/extra/star-rating.svg' alt='star' />
+                  <img src='assets/extra/star-rating.svg' alt='star' />
+                  <img src='assets/extra/star-rating.svg' alt='star' />
+                  <img src='assets/extra/star-rating.svg' alt='star' />
+                  <img src='assets/extra/star-rating.svg' alt='star' />
                 </div>
                 <p className='font-poppins text-lg text-grey'>Customers Reviews</p>
               </div>

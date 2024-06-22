@@ -19,7 +19,7 @@ const ReviewSlider = () => {
           <p className='font-dm-sans font-medium leading-[193%] text-xl'>Stevanus Putri</p>
         </div>
         <div className='w-2/5 rounded-xl'>
-          <img src='img/about.png' alt='review' className='w-full h-full' />
+          <img src='assets/img/about.png' alt='review' className='w-full h-full' />
         </div>
       </div>
       <div className='flex justify-between items-center'>
@@ -32,16 +32,16 @@ const ReviewSlider = () => {
         </ul>
         <div className='flex gap-4'>
           <div className='bg-[#F5F5F5] w-14 h-14 flex items-center justify-center cursor-pointer'>
-            <img src='icons/slider-left.svg' alt='slider-left' />
+            <img src='assets/icons/slider-left.svg' alt='slider-left' />
           </div>
           <div className='bg-dark-blue w-14 h-14 flex items-center justify-center cursor-pointer'>
-            <img src='icons/slider-right.svg' alt='slider-right' />
+            <img src='assets/icons/slider-right.svg' alt='slider-right' />
           </div>
         </div>
       </div>
 
-      <img src='extra/leaf1.svg' alt='leaf' className='absolute bottom-0 left-[-12.25rem] z-0 scale-x-[-1]'></img>
-      <img src='extra/leaf1.svg' alt='leaf' className='absolute top-[-4rem] right-[-10.25rem] z-0'></img>
+      <img src='assets/extra/leaf1.svg' alt='leaf' className='absolute bottom-0 left-[-12.25rem] z-0 scale-x-[-1]'></img>
+      <img src='assets/extra/leaf1.svg' alt='leaf' className='absolute top-[-4rem] right-[-10.25rem] z-0'></img>
     </div>
   );
 };

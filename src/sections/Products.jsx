@@ -6,11 +6,11 @@ const Products = () => {
       <h2 className='text-almost-black font-serif text-[3.25rem] mb-20'>Various skinseetd products</h2>
       <div className='grid grid-cols-3 gap-x-10 gap-y-20 mb-[3.25rem]'>
         <div data-name='product-item' className='flex flex-col'>
-          <img data-name='product-img' src='img/item1.png' alt='item1' className='w-full mb-4'></img>
+          <img data-name='product-img' src='assets/img/item1.png' alt='item1' className='w-full mb-4'></img>
           <div data-name='item-title' className='flex justify-between items-end'>
             <p className='text-almost-black font-serif font-medium text-3xl'>Solid Black Cream</p>
             <p className='text-almost-black font-dm-sans flex items-center'>
-              <img src='extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
+              <img src='assets/extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
             </p>
           </div>
           <div data-name='item-price' className='flex justify-between items-end'>
@@ -24,11 +24,11 @@ const Products = () => {
           </div>
         </div>
         <div data-name='product-item' className='flex flex-col'>
-          <img data-name='product-img' src='img/item2.png' alt='item2' className='w-full mb-4'></img>
+          <img data-name='product-img' src='assets/img/item2.png' alt='item2' className='w-full mb-4'></img>
           <div data-name='item-title' className='flex justify-between items-end'>
             <p className='text-almost-black font-serif font-medium text-3xl'>Solid Black Cream</p>
             <p className='text-almost-black font-dm-sans flex items-center'>
-              <img src='extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
+              <img src='assets/extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
             </p>
           </div>
           <div data-name='item-price' className='flex justify-between items-end'>
@@ -42,11 +42,11 @@ const Products = () => {
           </div>
         </div>
         <div data-name='product-item' className='flex flex-col'>
-          <img data-name='product-img' src='img/item3.png' alt='item3' className='w-full mb-4'></img>
+          <img data-name='product-img' src='assets/img/item3.png' alt='item3' className='w-full mb-4'></img>
           <div data-name='item-title' className='flex justify-between items-end'>
             <p className='text-almost-black font-serif font-medium text-3xl'>Solid Black Cream</p>
             <p className='text-almost-black font-dm-sans flex items-center'>
-              <img src='extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
+              <img src='assets/extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
             </p>
           </div>
           <div data-name='item-price' className='flex justify-between items-end'>
@@ -60,11 +60,11 @@ const Products = () => {
           </div>
         </div>
         <div data-name='product-item' className='flex flex-col'>
-          <img data-name='product-img' src='img/item4.png' alt='item4' className='w-full mb-4'></img>
+          <img data-name='product-img' src='assets/img/item4.png' alt='item4' className='w-full mb-4'></img>
           <div data-name='item-title' className='flex justify-between items-end'>
             <p className='text-almost-black font-serif font-medium text-3xl'>Solid Black Cream</p>
             <p className='text-almost-black font-dm-sans flex items-center'>
-              <img src='extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
+              <img src='assets/extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
             </p>
           </div>
           <div data-name='item-price' className='flex justify-between items-end'>
@@ -78,11 +78,11 @@ const Products = () => {
           </div>
         </div>
         <div data-name='product-item' className='flex flex-col'>
-          <img data-name='product-img' src='img/item5.png' alt='item5' className='w-full mb-4'></img>
+          <img data-name='product-img' src='assets/img/item5.png' alt='item5' className='w-full mb-4'></img>
           <div data-name='item-title' className='flex justify-between items-end'>
             <p className='text-almost-black font-serif font-medium text-3xl'>Solid Black Cream</p>
             <p className='text-almost-black font-dm-sans flex items-center'>
-              <img src='extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
+              <img src='assets/extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
             </p>
           </div>
           <div data-name='item-price' className='flex justify-between items-end'>
@@ -96,11 +96,11 @@ const Products = () => {
           </div>
         </div>
         <div data-name='product-item' className='flex flex-col'>
-          <img data-name='product-img' src='img/item6.png' alt='item6' className='w-full mb-4'></img>
+          <img data-name='product-img' src='assets/img/item6.png' alt='item6' className='w-full mb-4'></img>
           <div data-name='item-title' className='flex justify-between items-end'>
             <p className='text-almost-black font-serif font-medium text-3xl'>Solid Black Cream</p>
             <p className='text-almost-black font-dm-sans flex items-center'>
-              <img src='extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
+              <img src='assets/extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
             </p>
           </div>
           <div data-name='item-price' className='flex justify-between items-end'>
@@ -118,7 +118,7 @@ const Products = () => {
 
       <button className='border-2 border-dark-blue text-dark-blue px-9 py-4 text-lg flex gap-2 items-center mb-12'>
                   See more
-                  <img src='icons/arrow-right.svg' alt='arrow' />
+                  <img src='assets/icons/arrow-right.svg' alt='arrow' />
                 </button>
     </div>
   );

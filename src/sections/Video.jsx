@@ -12,13 +12,13 @@ const Video = () => {
         <p className='leading-[160%] text-2xl font-dm-sans mt-auto'>Alice Walker</p>
       </div>
       <div className='relative flex items-center justify-center'>
-        <img src='img/video-placeholder.png' alt='placeholder' className=''></img>
+        <img src='assets/img/video-placeholder.png' alt='placeholder' className=''></img>
         <div className='absolute w-32 h-32 bg-[hsla(0,0%,100%,0.5)] rounded-full flex items-center justify-center cursor-pointer'>
-          <img src='icons/play-filed.svg' alt='play'></img>
+          <img src='assets/icons/play-filed.svg' alt='play'></img>
         </div>
       </div>
 
-      <img src='extra/leaf2.svg' alt='leaf' className='absolute bottom-[-11.25rem] left-0 z-0'></img>
+      <img src='assetsextra/leaf2.svg' alt='leaf' className='absolute bottom-[-11.25rem] left-0 z-0'></img>
     </div>
   );
 };

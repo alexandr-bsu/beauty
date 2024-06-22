@@ -20,20 +20,20 @@ const Consultation = () => {
           </div>
 
           <div className='flex flex-col'>
-            <img src='img/consult-block2.png' alt='consult' className='w-80 mb-4'></img>
+            <img src='assets/img/consult-block2.png' alt='consult' className='w-80 mb-4'></img>
             <div className='flex justify-between items-center'>
               <p className='text-almost-black font-dm-sans'>Solid Black Cream</p>
               <p className='text-almost-black font-dm-sans flex items-center'>
-                <img src='extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
+                <img src='assets/extra/star-rating.svg' alt='star' className='inline size-4'></img>4.8
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <img data-name='middle-img' src='img/consult-block1.png' alt='consult' className='absolute bottom-0 self-center'></img>
-      <img src="extra/leaf1.svg" alt="leaf" className='absolute bottom-0 left-[-2rem] scale-x-[-1] '/>
-      <img src="extra/curve.svg" alt="leaf" className='absolute top-0 right-64 '/>
+      <img data-name='middle-img' src='assets/img/consult-block1.png' alt='consult' className='absolute bottom-0 self-center'></img>
+      <img src="assets/extra/leaf1.svg" alt="leaf" className='absolute bottom-0 left-[-2rem] scale-x-[-1] '/>
+      <img src="assets/extra/curve.svg" alt="leaf" className='absolute top-0 right-64 '/>
 
     </div>
   );
