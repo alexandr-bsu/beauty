@@ -4,7 +4,7 @@ import Nav from '../components/Nav';
 const Hero = () => {
   return (
     <div className='bg-cream w-full'>
-      <div className='px-32'>
+      <div className='px-4 lg:px-32'>
         <div className='relative z-10'>
           <Nav></Nav>
           <div data-name='left-part' className='2lg:w-2/3 w-full pt-40 pb-24'>
@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             <div data-name='items' className='flex max-lg:justify-around gap-12'>
               <div data-name='header-item' className='flex flex-col items-center justify-between gap-3'>
-                <p className='font-serif text-5xl font-black text-almost-black'>4.9</p>
+                <p className='font-serif text-4xl lg:text-5xl font-black text-almost-black'>4.9</p>
                 <div className='flex gap-1'>
                   <img src='assets/extra/star-rating.svg' alt='star' />
                   <img src='assets/extra/star-rating.svg' alt='star' />
@@ -44,7 +44,7 @@ const Hero = () => {
               </div>
 
               <div data-name='header-item' className='flex flex-col items-center text-center justify-between gap-3'>
-                <p className='font-serif text-5xl font-black text-almost-black '>
+                <p className='font-serif text-4xl lg:text-5xl font-black text-almost-black '>
                   2100<span className='text-accent'>K</span>
                 </p>
                 <p className='font-poppins text-lg text-grey whitespace-pre-line '>
