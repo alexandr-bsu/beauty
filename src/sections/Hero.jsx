@@ -1,12 +1,12 @@
 import React from 'react';
 import Nav from '../components/Nav';
 
-const Hero = () => {
+const Hero = ({onMenuOpen}) => {
   return (
     <div className='bg-cream w-full'>
       <div className='px-4 lg:px-32'>
         <div className='relative z-10'>
-          <Nav></Nav>
+          <Nav onMenuOpen={onMenuOpen}></Nav>
           <div data-name='left-part' className='2lg:w-2/3 w-full pt-40 pb-24'>
             <div data-name='content' className='flex flex-col'>
               <span className='font-poppins text-lg text-almost-black leaing-[193%] mb-4'>

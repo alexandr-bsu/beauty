@@ -9,11 +9,13 @@ import Products from './sections/Products';
 import ReviewSlider from './sections/ReviewSlider';
 import Footer from './sections/Footer';
 import FooterMobile from './sections/mobile/FooterMobile';
-
+import MobileMenu from './components/MobileMenu';
 const App = () => {
+  const [isClosed, setIsClosed] = React.useState(false);
   return (
     <>
-      <Hero />
+      <MobileMenu isClosed={isClosed} onClose={() => setIsClosed(true)}/>
+      <Hero onMenuOpen={() => setIsClosed(false)}/>
       <div class='max-sm:hidden'>
         <About />
       </div>

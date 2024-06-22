@@ -1,4 +1,5 @@
 import React from 'react';
+import Accardion from '../../components/Accardion';
 
 const FooterMobile = () => {
   return (
@@ -27,95 +28,7 @@ const FooterMobile = () => {
         </div>
       </div>
 
-      <ul className='flex flex-col text-almost-white-70 text-dm-sans mb-32'>
-        <li className='font-medium border-b border-almost-white-70 mt-4'>
-          <div className='text-almost-white flex justify-between pb-4'>
-            <h3>Menu</h3>
-          </div>
-
-          {/*открыт mb-4, закрыт h-0 */}
-          <ul className='space-y-4 text-almost-white-70 overflow-hidden mb-4'>
-            <li>
-              <a href='#'>Home</a>
-            </li>
-            <li>
-              <a href='#'>Consultant</a>
-            </li>
-            <li>
-              <a href='#'>Product</a>
-            </li>
-            <li>
-              <a href='#'>Shop</a>
-            </li>
-            <li>
-              <a href='#'>About Us</a>
-            </li>
-          </ul>
-        </li>
-        <li className='font-medium border-b border-almost-white-70 mt-4'>
-          <div className='text-almost-white flex justify-between pb-4'>
-            <h3>Product</h3>
-          </div>
-
-          {/*открыт mb-4, закрыт h-0 */}
-          <ul className='space-y-4 text-almost-white-70 overflow-hidden h-0'>
-            <li>
-              <a href='#'>Skincare</a>
-            </li>
-            <li>
-              <a href='#'>Handbody</a>
-            </li>
-            <li>
-              <a href='#'>Oil</a>
-            </li>
-            <li>
-              <a href='#'>Fashwash</a>
-            </li>
-          </ul>
-        </li>
-        <li className='font-medium border-b border-almost-white-70 mt-4'>
-          <div className='text-almost-white flex justify-between pb-4'>
-            <h3>Service</h3>
-          </div>
-
-          {/*открыт mb-4, закрыт h-0 */}
-          <ul className='space-y-4 text-almost-white-70 overflow-hidden h-0'>
-            <li>
-              <a href='#'>Order</a>
-            </li>
-            <li>
-              <a href='#'>Bokeed</a>
-            </li>
-            <li>
-              <a href='#'>Payment</a>
-            </li>
-            <li>
-              <a href='#'>Delivery</a>
-            </li>
-          </ul>
-        </li>
-        <li className='font-medium border-b border-almost-white-70 mt-4'>
-          <div className='text-almost-white flex justify-between pb-4'>
-            <h3>Support</h3>
-          </div>
-
-          {/*открыт mb-4, закрыт h-0 */}
-          <ul className='space-y-4 text-almost-white-70 overflow-hidden h-0'>
-            <li>
-              <a href='#'>Chat Online</a>
-            </li>
-            <li>
-              <a href='#'>Call Online</a>
-            </li>
-            <li>
-              <a href='#'>Language</a>
-            </li>
-            <li>
-              <a href='#'>Copyright</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <Accardion/>
 
       <div className='flex flex-col gap-4 items-center text-sm text-almost-white-70'>
         <ul className='flex gap-10'>
