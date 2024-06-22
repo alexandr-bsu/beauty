@@ -10,7 +10,8 @@ export default {
       "accent": "#FF7A00",
       "cream": "#FEF3E2",
       "rose": "#FE9986",
-      "rose-80": "hsl(9, 75, 76, 80%)"
+      "rose-80": "rgba(240, 163, 149, 0.8)",
+      "almost-white-70": "rgba(255, 255, 255, 0.7)",
     },
 
     fontFamily:{
