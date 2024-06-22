@@ -11,7 +11,7 @@ import Footer from './sections/Footer';
 import FooterMobile from './sections/mobile/FooterMobile';
 import MobileMenu from './components/MobileMenu';
 const App = () => {
-  const [isClosed, setIsClosed] = React.useState(false);
+  const [isClosed, setIsClosed] = React.useState(true);
   return (
     <>
       <MobileMenu isClosed={isClosed} onClose={() => setIsClosed(true)}/>
