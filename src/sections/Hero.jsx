@@ -58,7 +58,6 @@ const Hero = () => {
         </div>
       </div>
       <div data-name='blur' className='absolute z-0 top-0 left-0 bg-[#FFEFD7] w-80 h-80 rounded-full blur-3xl'></div>
-      
     </div>
   );
 };
