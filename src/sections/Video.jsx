@@ -18,7 +18,7 @@ const Video = () => {
         </div>
       </div>
 
-      <img src='assetsextra/leaf2.svg' alt='leaf' className='absolute bottom-[-11.25rem] left-0 z-0'></img>
+      <img src='assets/extra/leaf2.svg' alt='leaf' className='absolute bottom-[-11.25rem] left-0 z-0'></img>
     </div>
   );
 };
