@@ -22,7 +22,7 @@ const Hero = ({onMenuOpen}) => {
               </p>
               <div data-name='buttons' className='flex lg:flex-row flex-col gap-6 mb-20'>
                 <button className='bg-dark-blue px-12 py-4 text-lg flex gap-2 items-center justify-center text-almost-white'>
-                  Get starter
+                  Get started
                 </button>
                 <button className='border-2 border-almost-black px-9 py-4 text-lg flex gap-2 justify-center items-center'>
                   <img src='assets/icons/shop-bag.svg' alt='shop bag' />

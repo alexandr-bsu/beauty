@@ -3,7 +3,7 @@ import React from 'react';
 const ReviewSlider = () => {
   return (
     <div className='px-5 lg:container-1200 relative'>
-      <h2 className='text-almost-black font-serif text-3xl lg:text-[3.25rem] mb-10 lg:mb-14 w-2/5 max-md:w-full'>
+      <h2 className='text-almost-black font-serif leading-[100%] text-3xl lg:text-[3.25rem] mb-10 lg:mb-14 w-2/5 max-md:w-full'>
         What customers say about our products
       </h2>
       <div className='w-full bg-cream flex justify-between md:rounded-r-xl mb-10 lg:mb-6'>

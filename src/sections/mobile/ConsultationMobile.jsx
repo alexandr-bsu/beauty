@@ -9,7 +9,7 @@ const ConsultationMobile = () => {
         have provided
       </p>
       <button className='bg-dark-blue px-12 py-4 text-lg flex gap-2 items-center justify-center text-almost-white w-full mb-5'>
-        Get starter
+        Get started
       </button>
       <div className='flex flex-col px-5'>
             <img src='assets/img/item1.png' alt='consult' className='w-100 mb-4'></img>
