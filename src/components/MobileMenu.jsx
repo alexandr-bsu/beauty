@@ -3,7 +3,7 @@ import Accardion from './Accardion';
 
 const MobileMenu = ({isClosed, onClose}) => {
   return (
-    <div className={`bg-dark-blue px-10 py-10 w-full h-full fixed t-0 z-30 ${isClosed ? 'hidden': '' }`}>
+    <div className={`bg-dark-blue px-5 py-5 w-full h-full fixed t-0 z-30 ${isClosed ? 'hidden': '' }`}>
       <div className='flex justify-between items-center mb-8'>
         <img alt='logo' src='assets/img/white-logo.png' width={70} height={70}></img>
         <button className='text-almost-white text-lg font-dm-sans flex gap-2 items-center' onClick={onClose}>
