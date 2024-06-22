@@ -2,8 +2,8 @@ import React from 'react';
 
 const AboutMobile = () => {
   return (
-    <div className='px-5'>
-      <p className='text-almost-black font-serif text-4xl leading-[150%] py-3 mb-10'>
+    <div className='px-5 mb-5'>
+      <p className='text-almost-black font-serif text-4xl leading-[150%] py-3 mb-10 text-center'>
         Beauty is part of women's privileges still do body care to always maintain your beautiful features. let's join
         other women to get products from the latest skinseed
       </p>
