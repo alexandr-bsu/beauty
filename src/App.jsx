@@ -8,6 +8,7 @@ import ConsultationMobile from './sections/mobile/ConsultationMobile';
 import Products from './sections/Products';
 import ReviewSlider from './sections/ReviewSlider';
 import Footer from './sections/Footer';
+import FooterMobile from './sections/mobile/FooterMobile';
 
 const App = () => {
   return (
@@ -28,7 +29,12 @@ const App = () => {
       </div>
       <Products />
       <ReviewSlider />
-      <Footer />
+      <div class='max-lg:hidden'>
+        <Footer />
+      </div>
+      <div class='lg:hidden'>
+        <FooterMobile />
+      </div>
     </>
   );
 };

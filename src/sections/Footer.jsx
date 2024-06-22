@@ -30,6 +30,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+            
             <div className='flex gap-20'>
               <div data-name='footer-menu-section'>
                 <h3 className='font-medium font-dm-sans text-xl text-almost-white mb-6'>Menu</h3>
