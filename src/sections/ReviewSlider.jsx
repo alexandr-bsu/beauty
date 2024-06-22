@@ -2,23 +2,23 @@ import React from 'react';
 
 const ReviewSlider = () => {
   return (
-    <div className='container-1200 relative mb-32'>
-      <h2 className='text-almost-black font-serif text-[3.25rem] mb-14 w-2/5 '>
-        What customers say about our productss
+    <div className='px-5 lg:container-1200 relative mb-32'>
+      <h2 className='text-almost-black font-serif text-3xl lg:text-[3.25rem] mb-10 lg:mb-14 w-2/5 max-md:w-full'>
+        What customers say about our products
       </h2>
-      <div className='w-full bg-cream flex justify-between rounded-r-xl mb-6'>
-        <div className='w-3/5 flex flex-col py-14 px-24'>
-          <p className='font-serif font-bold mb-4'>
-            <span className='text-rose text-6xl'>01 / </span> <span className='text-rose-80 text-3xl'>05</span>
+      <div className='w-full bg-cream flex justify-between lg:rounded-r-xl mb-10 lg:mb-6'>
+        <div className='w-full lg:w-3/5 flex flex-col pt-4 pb-14 lg:py-14 px-4 lg:px-24'>
+          <p className='font-serif font-bold mb-8 lg:mb-4'>
+            <span className='text-rose text-5xl lg:text-6xl'>01 / </span> <span className='text-rose-80 text-3xl'>05</span>
           </p>
 
-          <p className='font-serif font-medium leading-[193%] text-xl mb-10'>
+          <p className='font-serif font-medium leading-[193%] text-base lg:text-xl mb-10'>
             Wow! Very amazing. Thanks for the products from skinseed, I really love using skin products to help me out
             in the sun! I'm waiting for an amazing new product :)
           </p>
-          <p className='font-dm-sans font-medium leading-[193%] text-xl'>Stevanus Putri</p>
+          <p className='font-dm-sans font-medium leading-[193%] text-base lg:text-xl'>Stevanus Putri</p>
         </div>
-        <div className='w-2/5 rounded-xl'>
+        <div className='hidden lg:block w-2/5 rounded-xl'>
           <img src='assets/img/about.png' alt='review' className='w-full h-full' />
         </div>
       </div>

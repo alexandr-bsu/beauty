@@ -2,7 +2,7 @@ import React from 'react';
 
 const Products = () => {
   return (
-    <div className='container-1200 flex flex-col items-center max-md:px-5'>
+    <div className='container-1200 flex flex-col items-center max-md:px-5 mb-4 lg:mb-40'>
       <h2 className='text-almost-black font-serif text-[3.25rem] mb-20 max-md:text-4xl max-md:mb-14 max-md:leading-[140%]'>Various skinseetd products</h2>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-20 mb-[3.25rem] max-md:gap-y-10'>
         <div data-name='product-item' className='flex flex-col '>
@@ -116,7 +116,7 @@ const Products = () => {
      
       </div>
 
-      <button className='border-2 border-dark-blue text-dark-blue px-9 py-4 text-lg flex gap-2 items-center mb-12 max-md:w-full justify-center'>
+      <button className='border-2 border-dark-blue text-dark-blue px-9 py-4 text-lg flex gap-2 items-center  max-md:w-full justify-center'>
                   See more
                   <img src='assets/icons/arrow-right.svg' alt='arrow' />
                 </button>
