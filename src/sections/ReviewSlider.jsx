@@ -41,7 +41,7 @@ const ReviewSlider = () => {
       </div>
 
       <img src='assets/extra/leaf1.svg' alt='leaf' className='absolute bottom-0 left-[-12.25rem] z-0 scale-x-[-1]'></img>
-      <img src='assets/extra/leaf1.svg' alt='leaf' className='absolute top-[-4rem] right-[-10.25rem] z-0'></img>
+      <img src='assets/extra/leaf1.svg' alt='leaf' className='absolute top-[-4rem] right-[-10.25rem] z-0 hidden 2lg:block'></img>
     </div>
   );
 };

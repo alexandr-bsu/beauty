@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-      <div className='container-1200 mb-36'>
+      <div className='container-1200 mb-5 lg:mb-36'>
         <div className='font-poppins text-5xl leading-[150%] text-almost-black text-center px-10 py-[7.5rem]'>
           Beauty is part of women's privileges still do body care to always maintain your beautiful features. Let's join
           other women to get products from the latest Brand.
@@ -28,7 +28,7 @@ const About = () => {
           </div>
 
           <img src='assets/extra/ellipse.svg' alt='ellipse' className='absolute top-[-2.5rem] left-[-6.25rem] z-0'></img>
-          <img src='assets/extra/leaf1.svg' alt='leaf' className='absolute top-0 right-[-15rem] z-0'></img>
+          <img src='assets/extra/leaf1.svg' alt='leaf' className='absolute top-0 right-[-15rem] z-0 hidden 2lg:block'></img>
         </div>
       </div>
   );
