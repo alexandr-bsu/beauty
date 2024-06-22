@@ -22,7 +22,7 @@ const Nav = ({onMenuOpen}) => {
         </li>
       </ul>
       <div className='ml-auto flex gap-4'>
-        <button className='border-2 border-almost-black px-4 py-2 ml-auto text-lg font-dm-sans flex gap-2 items-center'>
+        <button className='border-2 border-almost-black px-4 py-2 ml-auto text-lg font-dm-sans flex gap-2 items-center md:hidden'>
           Product trailer
           <img src='assets/icons/play-circle.svg' alt='play'/>
         </button>
